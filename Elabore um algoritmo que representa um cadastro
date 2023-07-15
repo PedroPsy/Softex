@@ -1,0 +1,16 @@
+var nome, endereco, cidade, cpf, rg, idade, nomeDoPai, nomeDaMae, peso, rendaBruta;
+
+nome = prompt('Digite seu nome: ');
+endereco= prompt('Digite seu endereço: ');
+cidade = prompt('Digite o nome de sua cidade');
+cpf = prompt('Digite seu CPF: ');
+rg = prompt('Digite seu RG: ');
+idade = prompt('Digite sua Idade: ');
+nomeDoPai= prompt('Digite o nome do seu pai: ');
+nomeDaMae= prompt('Digite o nome da sua mae: ');
+peso= prompt('Digite seu peso: ');
+rendaBruta = prompt('Qual sua renda bruta? ');
+
+
+window.alert('-'+ nome+ '\n-' + endereco + '\n-' + cidade + '\n-' + cpf + '\n-' + rg + '\n-' +
+             idade+ '\n-' + nomeDoPai + '\n-' + nomeDaMae + '\n-' + peso + '\n-' + rendaBruta);
