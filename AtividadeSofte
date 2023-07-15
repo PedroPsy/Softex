@@ -1,0 +1,21 @@
+Para as váriaveis seria mais apropriado atribuir:
+- nome: caracter/ String
+- cpf: int
+- rg: int
+- altura: real/ float/ double
+- endereco: caracter/ String
+
+A baixo fiz um comando em Java Script que pega os dados solicitados e printa na tela os dados
+Seria uma das soluções para o que foi proposto
+
+codigo:
+
+var nome, cpf, rg, altura, endereco;
+
+nome = prompt('Digite seu nome: ');
+cpf = prompt('Digite seu CPF: ');
+rg = prompt('Digite seu RG: ');
+altura= prompt('Digite sua altura: ');
+endereco= prompt('Digite seu endereço: ');
+
+window.alert('-'+ nome+ '\n-' + cpf+ '\n-' +rg+ '\n-' +altura+ '\n-' +endereco);
